@@ -693,6 +693,11 @@ section.inner-page.terms {
     background-position: center;
 }
 
+section.inner-page.contact{
+    background: url(../images/conatct-us.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .inner-text-bnr {
     text-align: center;
 }
@@ -759,4 +764,9 @@ section.policy-content {
 
 .footer-widget p a {
     color: #fff;
+}
+
+.roster:hover {
+    transform: translateY(-12px) !important;
+    display: block;
 }
