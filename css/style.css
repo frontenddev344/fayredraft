@@ -693,11 +693,12 @@ section.inner-page.terms {
     background-position: center;
 }
 
-section.inner-page.contact{
+section.inner-page.contact {
     background: url(../images/conatct-us.jpg)no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 .inner-text-bnr {
     text-align: center;
 }
@@ -769,4 +770,48 @@ section.policy-content {
 .roster:hover {
     transform: translateY(-12px) !important;
     display: block;
+}
+
+section.queries {
+    padding: 60px 0;
+}
+
+.queries-inner p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 400;
+}
+
+.form-wrapper-p p label {
+    display: block;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #000;
+}
+
+.form-wrapper-p p input {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #00aae7 !important;
+    border: none;
+    outline: none;
+}
+
+.form-wrapper-p {
+    margin-bottom: 20px;
+}
+
+.form-wrapper-p p textarea#w3review {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #00aae7;
+    outline: none;
+}
+
+.contact-f h3 {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0;
 }
