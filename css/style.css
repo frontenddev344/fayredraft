@@ -833,3 +833,9 @@ p.submit input:hover {
     background-color: #00aae7;
     color: #fff;
 }
+
+.error {
+    color: red;
+    display: none;
+}
+
