@@ -58,6 +58,10 @@
         color: #fff;
     }
 
+    .navigation div#mySidenavs ul li a:hover {
+        color: #00aae7;
+    }
+
     .banner-text h1 {
         line-height: 50px;
         font-size: 36px;
