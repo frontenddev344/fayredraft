@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1199px) {
+    .main-banner-wrapper {
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .sidenavs {
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        overflow-x: hidden;
+        background: #00aae7;
+        height: 100vh;
+        transition: all .3s;
+        z-index: 9999999;
+        padding-top: 45px;
+    }
+
+    a.active {
+        color: #fff !important;
+
+    }
+
+    .page-header {
+        opacity: 1;
+    }
+
+    .toggle-bar {
+        display: block !important;
+        color: #00aae7;
+        font-size: 30px;
+    }
+
+    span.closebtn {
+        display: block !important;
+        text-align: right;
+        color: #fff;
+        position: absolute;
+        right: 19px;
+        top: 10px;
+        font-size: 20px;
+    }
+
+    .navigation div#mySidenavs ul {
+        display: block;
+    }
+
+    .navigation div#mySidenavs ul li {
+        margin-left: 0px;
+    }
+
+    .navigation div#mySidenavs ul li a {
+        padding: 7px 20px;
+        display: block;
+        color: #fff;
+    }
+
+    .banner-text h1 {
+        line-height: 50px;
+        font-size: 36px;
+
+    }
+
+    .players-text h4 {
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .player-wrapper .row .col-md-4 {
+        margin-bottom: 30px;
+    }
+
+    .easy-step .row .col-md-4 {
+        margin-bottom: 30px;
+    }
+
+    .about-sec-inner .row {
+        flex-direction: column-reverse;
+    }
+
+    .athletes {
+        margin-top: 30px;
+    }
+
+    .pick-up .row .col-md-4 {
+        margin-bottom: 30px;
+    }
+
+    .bnr-img img {
+        max-width: 400px;
+        height: 400px;
+    }
+
+    .main-banner-wrapper {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .banner-text .row {
+        flex-direction: column-reverse;
+    }
+
+    .main-footer {
+        text-align: center;
+    }
+
+    .team-headiing h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .football {
+        position: absolute;
+        top: 36%;
+        left: 15%;
+        transform: translateX(-50%);
+    }
+
+    .football img {
+        max-width: 101px;
+    }
+
+    .bnr-img {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .bnr-img img {
+        max-width: 270px;
+        height: 270px;
+    }
+
+    .football {
+        top: 28%;
+
+    }
+
+    .bnr-img {
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .football {
+        position: absolute;
+        top: 29%;
+        left: 14%;
+        transform: translateX(-50%);
+    }
+
+    .bnr-img {
+        text-align: right;
+    }
+}
