@@ -22,34 +22,27 @@ document.getElementById('contactForm').addEventListener('submit', function (even
     document.querySelectorAll('.error').forEach(function (element) {
         element.style.display = 'none';
     });
-    document.querySelectorAll('input, textarea').forEach(function (element) {
-        element.classList.remove('error-border');
-    });
+
 
     // Validation logic
     if (!firstName.value.trim()) {
         document.getElementById('nameError').style.display = 'block';
-        firstName.classList.add('error-border');
         valid = false;
     }
     if (!lastName.value.trim()) {
         document.getElementById('lastNameError').style.display = 'block';
-        lastName.classList.add('error-border');
         valid = false;
     }
     if (!email.value.trim()) {
         document.getElementById('emailError').style.display = 'block';
-        email.classList.add('error-border');
         valid = false;
     }
     if (!phoneNumber.value.trim()) {
         document.getElementById('phoneNumberError').style.display = 'block';
-        phoneNumber.classList.add('error-border');
         valid = false;
     }
     if (!message.value.trim()) {
         document.getElementById('messageError').style.display = 'block';
-        message.classList.add('error-border');
         valid = false;
     }
 
