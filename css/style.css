@@ -837,5 +837,14 @@ p.submit input:hover {
 .error {
     color: red;
     display: none;
+    text-transform: capitalize;
 }
 
+
+.roster {
+    margin: 20px auto !important;
+}
+
+.players-box {
+    margin: 20px auto !important;
+}
