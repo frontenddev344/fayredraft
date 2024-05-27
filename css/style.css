@@ -803,7 +803,7 @@ section.queries {
     margin-bottom: 20px;
 }
 
-.form-wrapper-p p textarea#w3review {
+textarea#message {
     width: 100%;
     border: none;
     border-bottom: 1px solid #00aae7;
@@ -814,4 +814,22 @@ section.queries {
     font-size: 40px;
     text-align: center;
     padding: 50px 0;
+}
+
+p.submit input {
+    width: auto;
+    border: 1px solid #00aae7;
+    border-bottom: 1px solid #00aae7 !important;
+    padding: 14px 44px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all 0.3s linear;
+    border-radius: 15px;
+}
+
+p.submit input:hover {
+
+    background-color: #00aae7;
+    color: #fff;
 }

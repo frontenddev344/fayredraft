@@ -66,19 +66,19 @@
 
             <div class="contact-f">
                 <h3>Contact Us </h3>
-                <form action="#">
+                <form id="contactForm" action="#">
                     <div class="form-wrapper-p">
                         <div class="row">
                             <div class="col-md-6">
                                 <p>
                                     <label>First name *</label>
-                                    <input type="text">
+                                    <input type="text" id="firstName" name="name">
                                 </p>
                             </div>
                             <div class="col-md-6">
                                 <p>
                                     <label> Last name *</label>
-                                    <input type="text">
+                                    <input type="text" id="lastName" name="lastName">
                                 </p>
                             </div>
                         </div>
@@ -87,17 +87,14 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <p>
-                                    <label> Your email *
-                                    </label>
-                                    <input type="email">
+                                    <label> Your email *</label>
+                                    <input type="email" id="email" name="email">
                                 </p>
-
                             </div>
                             <div class="col-md-6">
                                 <p>
-                                    <label> Phone Number *
-                                    </label>
-                                    <input type="text">
+                                    <label> Phone Number *</label>
+                                    <input type="text" id="phoneNumber" name="number">
                                 </p>
                             </div>
                         </div>
@@ -106,22 +103,19 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <p>
-                                    <label> Your message *
-                                    </label>
-                                    <textarea id="w3review" name="w3review" cols="50"> </textarea>
+                                    <label> Your message *</label>
+                                    <textarea id="message" name="message" cols="50"></textarea>
                                 </p>
                             </div>
-
                         </div>
                     </div>
                     <div class="form-wrapper-p">
                         <div class="row">
                             <div class="col-md-12">
-                                <p>
-                                    <input type="submit" name="" id="">
+                                <p class="submit">
+                                    <input type="submit" id="submitBtn">
                                 </p>
                             </div>
-
                         </div>
                     </div>
                 </form>
