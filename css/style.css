@@ -112,7 +112,6 @@ figure {
     font-weight: 600;
     position: relative;
     font-size: 16px;
-    font-family: 'Jost', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1.5px;
 }
@@ -447,7 +446,7 @@ span.ct-line {
     border-radius: 15px;
     transition: 1s;
     box-shadow: 6px 6px 0 #00aae7;
-    /* transform: skewX(-12deg); */
+    height: 100%;
 }
 
 .roster-content {
@@ -822,19 +821,25 @@ textarea#message {
 
 p.submit input {
     width: auto;
-    border: 1px solid #00aae7;
-    border-bottom: 1px solid #00aae7 !important;
-    padding: 14px 44px;
-    font-size: 16px;
+    padding: 14px 33px;
+    text-decoration: none;
+    font-size: 18px;
     font-weight: 600;
-    text-transform: capitalize;
-    transition: all 0.3s linear;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+    color: #090909;
+    background: #F6F9F6;
+    border: 2px solid #090909;
     border-radius: 15px;
+    transition: 1s;
+    display: inline-block;
+    border-bottom: 2px solid #090909 !important;
 }
 
 p.submit input:hover {
-
+    border-bottom: 2px solid #00aae7 !important;
     background-color: #00aae7;
+    border: 2px solid #00aae7;
     color: #fff;
 }
 
