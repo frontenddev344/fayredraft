@@ -8,8 +8,11 @@
     font-family: "Inter", sans-serif;
 
 }
+::selection{
+    background-color: #000;
+    color: #fff;
+}
 
-/* 
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -21,14 +24,14 @@
 
 
 ::-webkit-scrollbar-thumb {
-    background: #aa9875;
+    background: #00aae7;
     border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
     -webkit-filter: brightness(120%);
     filter: brightness(120%);
-} */
+}
 
 img {
     width: 100%;
@@ -878,8 +881,8 @@ p.submit input:hover {
     position: absolute;
     content: "";
     background: #00aae7;
-    width: 8px;
-    height: 8px;
+    width: 8px  ;
+    height: 8px ;
     top: 8px;
     left: 0;
     border-radius: 50%;
