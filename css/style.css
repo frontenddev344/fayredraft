@@ -8,10 +8,10 @@
     font-family: "Inter", sans-serif;
 
 }
-::selection{
+/* ::selection{
     background-color: #000;
     color: #fff;
-}
+} */
 
 ::-webkit-scrollbar {
     width: 8px;
