@@ -107,11 +107,11 @@ figure {
     display: block;
     color: #000;
     padding: 20px 0;
-    font-weight: 500;
+    font-weight: 600;
     position: relative;
     font-size: 16px;
     font-family: 'Jost', sans-serif;
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 1.5px;
 }
 
@@ -760,9 +760,7 @@ section.policy-content {
     overflow: hidden;
 }
 
-.easy-step {
-    overflow: hidden;
-}
+
 
 .player-wrapper {
     overflow: hidden;
