@@ -183,7 +183,7 @@ header.header {
     padding: 0px;
     letter-spacing: 0px;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 64px;
     color: #fff;
 }
 
@@ -274,7 +274,7 @@ header.header {
 
 .form-wrapper input {
     width: 100%;
-    padding: 10px;
+    padding: 10px 16px;
     display: inline-block;
     border-radius: 30px;
     outline: none;
