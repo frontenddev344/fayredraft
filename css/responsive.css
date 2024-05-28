@@ -109,9 +109,7 @@
         padding: 40px 0;
     }
 
-    .banner-text .row {
-        flex-direction: column-reverse;
-    }
+
 
     .main-footer {
         text-align: center;
@@ -124,7 +122,7 @@
 
     .football {
         position: absolute;
-        top: 36%;
+
         left: 15%;
         transform: translateX(-50%);
     }
@@ -144,10 +142,7 @@
         height: 270px;
     }
 
-    .football {
-        top: 28%;
 
-    }
 
     .bnr-img {
         text-align: right;
@@ -157,7 +152,7 @@
 @media only screen and (max-width: 375px) {
     .football {
         position: absolute;
-        top: 29%;
+
         left: 14%;
         transform: translateX(-50%);
     }

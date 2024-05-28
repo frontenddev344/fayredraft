@@ -1,5 +1,5 @@
 function openNav() {
-    document.getElementById("mySidenavs").style.width = "280px";
+    document.getElementById("mySidenavs").style.width = "300px";
 }
 
 function closeNav() {
