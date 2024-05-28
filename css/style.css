@@ -8,6 +8,7 @@
     font-family: "Inter", sans-serif;
 
 }
+
 /* ::selection{
     background-color: #000;
     color: #fff;
@@ -445,7 +446,7 @@ span.ct-line {
     border-radius: 15px;
     transition: 1s;
     box-shadow: 6px 6px 0 #00aae7;
-    transform: skewX(-12deg);
+    /* transform: skewX(-12deg); */
 }
 
 .roster-content {
@@ -553,11 +554,9 @@ section.about-sec {
 }
 
 .transfers {
-    background: #fff;
+    background: #00aae71f;
     padding: 30px;
     height: 100%;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-
     border-left: 2px solid #00aae7;
 }
 
@@ -774,10 +773,7 @@ section.policy-content {
     color: #fff;
 }
 
-.roster:hover {
-    transform: translateY(-12px) !important;
-    display: block;
-}
+
 
 section.queries {
     padding: 60px 0;
@@ -863,25 +859,28 @@ p.submit input:hover {
     font-weight: 600;
 }
 
-.start-get h5 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-.start-get ul li {
+.fantasy {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border: 1px solid #00aae7;
     position: relative;
-    padding-left: 20px;
-    padding-bottom: 15px;
+    z-index: 1;
+    height: 100%;
 }
 
-.start-get ul li::before {
-    position: absolute;
-    content: "";
+span.number-text {
     background: #00aae7;
-    width: 8px  ;
-    height: 8px ;
-    top: 8px;
-    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
+    position: absolute;
+    top: -29px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
 }
