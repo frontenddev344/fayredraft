@@ -699,6 +699,12 @@ section.inner-page.contact {
     background-position: center;
 }
 
+section.inner-page.playback {
+    background: url(../images/Playback.webp)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .inner-text-bnr {
     text-align: center;
 }
@@ -847,4 +853,34 @@ p.submit input:hover {
 
 .players-box {
     margin: 20px auto !important;
+}
+
+.start-get h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: 600;
+}
+
+.start-get h5 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.start-get ul li {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.start-get ul li::before {
+    position: absolute;
+    content: "";
+    background: #00aae7;
+    width: 8px;
+    height: 8px;
+    top: 8px;
+    left: 0;
+    border-radius: 50%;
 }
