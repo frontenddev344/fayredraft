@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
 
 }
 
@@ -866,7 +867,6 @@ p.submit input:hover {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     border: 1px solid #00aae7;
     position: relative;
-    z-index: 1;
     height: 100%;
 }
 
