@@ -943,3 +943,7 @@ section.easy-steps {
     background: #fff;
     border-right: 2px solid #00aae7;
 }
+.for_row_reverse .roster-content {
+    border-left: 2px solid #00aae7;
+    border-right: unset;
+}
