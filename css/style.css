@@ -938,3 +938,8 @@ section.queries.competitive {
 section.easy-steps {
     background-color: whitesmoke;
 }
+.roster-content {
+    padding: 70px 20px;
+    background: #fff;
+    border-right: 2px solid #00aae7;
+}
