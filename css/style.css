@@ -442,7 +442,7 @@ span.ct-line {
 }
 
 .roster {
-    border: 2px solid #00aae7;
+    border: 6px solid #00aae7;
     border-radius: 15px;
     transition: 1s;
     box-shadow: 6px 6px 0 #00aae7;
@@ -455,7 +455,7 @@ span.ct-line {
 
 .roster-img img {
     border-top-left-radius: 12px;
-    height: 257px;
+    height: 330px;
     object-fit: cover;
     border-top-right-radius: 12px;
 }
@@ -927,4 +927,14 @@ span.number-text {
 
 section.queries.competitive {
     padding-top: 10px;
+}
+.for_row_reverse {
+    flex-direction: row-reverse;
+}
+.roster-content h3 {
+    border-bottom: 2px solid #00aae7;
+    display: inline-block;
+}
+section.easy-steps {
+    background-color: whitesmoke;
 }
